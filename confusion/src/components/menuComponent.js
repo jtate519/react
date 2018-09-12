@@ -1,4 +1,4 @@
-mport React, { Component } from 'react';
+import React, { Component } from 'react';
 import { Media } from 'reactstrap';
 
 class Menu extends Component {
@@ -41,7 +41,7 @@ class Menu extends Component {
                 ],
          };
      }
-     ender() {
+     render() {
         const menu = this.state.dishes.map((dish) => {
             return (
               <div key={dish.id} className="col-12 mt-5">
